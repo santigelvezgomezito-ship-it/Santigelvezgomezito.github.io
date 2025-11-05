@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>¿Qué se siente ver un cuerpo sin cabeza?</title>
+
+    <!-- ✅ Bootstrap agregado -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: #f1f1f1; font-family: "Georgia", serif; }
+
+      /* Ajustes de la nueva navbar para que combine con tu estilo */
+      .navbar-custom {
+        background-color: rgba(255, 76, 76, 0.95);
+        border-bottom: 3px solid #ffcccc;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+      }
+      .navbar-brand, .nav-link {
+        color: white !important;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .nav-link:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 6px;
+      }
+
+      header { border: 3px solid #ff4c4c; margin: 20px auto; width: 90%; text-align: center; padding: 25px; background-color: rgba(255, 255, 255, 0.05); }
+      header h1 { color: #ff4c4c; font-family: "Cinzel", serif; font-size: 2.3em; text-shadow: 2px 2px 8px black; }
+      main { display: flex; justify-content: space-between; width: 90%; margin: 0 auto; }
+      section, article { width: 65%; background: rgba(255, 255, 255, 0.05); padding: 20px; border: 2px solid #00bfff; border-radius: 10px; margin-bottom: 20px; }
+      section h2, article h2 { color: #00bfff; border-bottom: 2px solid #555; padding-bottom: 5px; margin-bottom: 10px; }
+      aside { width: 30%; margin-left: 20px; position: relative; }
+      aside img { display: block; margin: 20px auto; border: 3px solid #fff; border-radius: 10px; box-shadow: 0 0 15px #000; transition: transform 0.3s ease; }
+      aside img:hover { transform: scale(1.05); }
+      table { width: 100%; border-collapse: collapse; background: rgba(255, 255, 255, 0.1); color: #f1f1f1; border-radius: 8px; overflow: hidden; margin-top: 15px; }
+      th, td { padding: 10px; border: 1px solid #555; }
+      th { background: #ff4c4c; color: white; }
+      tr:hover { background: rgba(255, 255, 255, 0.05); transition: 0.3s; }
+      footer { clear: both; margin-top: 30px; text-align: center; font-size: 12px; color: #bbb; background: rgba(0, 0, 0, 0.6); padding: 10px; border-top: 2px solid #ff4c4c; }
+      footer a { color: #90ee90; }
+      footer a:hover { color: #00bfff; }
+      .grande { font-size: 22px; color: #ffcc70; padding: 5px; }
+      .pequeño { font-size: 14px; color: #dcdcdc; margin: 10px 0; }
+      #especial { background: rgba(255, 255, 255, 0.1); border-left: 4px solid #ff4c4c; padding: 10px; margin: 15px 0; }
+    </style>
+  </head>
+  <body>
+
+    <!-- 🧩 Se usó Bootstrap mediante componentes (Navbar y Dropdown) -->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi Sitio Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#lo-que-siento">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mis-metas">Mis metas</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Más
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#tabla">Reflexiones</a></li>
+                <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://aprende-web.net/html/html3_1.php" target="_blank">Aprende HTML</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h1>¿Qué se siente ver un cuerpo sin cabeza?</h1>
+    </header>
+
+    <main>
+      <div style="width: 65%;">
+        <section id="lo-que-siento">
+          <h2>Lo que siento</h2>
+          <p class="grande">A veces siento tranquilidad al ver un cuerpo sin cabeza pero después recuerdo lo que una persona representa.</p>
+          <p>El vacío que no es tener una cabeza o solo cabeza hueca, llegar a los 30 con luces neón en tu cabeza despertando en cama en cama día tras día no es sano y no llegas a nada.</p>
+          <p class="pequeño">Quieres un maniquí entonces besa al maniquí pero no lastimes al maniquí.</p>
+        </section>
+        <article id="mis-metas">
+          <h2>Mis metas y sueños</h2>
+          <p id="especial">Siento y quiero enfocarme en tres cosas aunque mi familia quiere verme como solo una persona. Quiero influir e inspirar a la gente, quiero hacer sentir, no como un robot o una impresora. Quiero también estar en otras áreas y que no parezcan desconocidas ni den miedo, quiero vivir.</p>
+          <ul>
+            <li><a href="#lo-que-siento">Influir e inspirar a la gente</a></li>
+            <li><a href="#mis-metas">Explorar áreas nuevas sin miedo</a></li>
+            <li><a href="#tabla">Vivir con plenitud y propósito</a></li>
+          </ul>
+        </article>
+        <section id="tabla">
+          <h2>Tabla de Reflexiones</h2>
+          <table>
+            <tr><th>Aspecto</th><th>Descripción</th></tr>
+            <tr><td>Inspiración</td><td>Influir e inspirar a la gente con mis ideas</td></tr>
+            <tr><td>Exploración</td><td>Abrirme a nuevas áreas sin miedo</td></tr>
+            <tr><td>Propósito</td><td>Vivir con plenitud y sentido</td></tr>
+          </table>
+        </section>
+      </div>
+      <aside>
+        <img src="9265761D-414D-4A6C-8247-2E66F573D59B.jpeg" alt="Imagen representativa" width="250" />
+      </aside>
+    </main>
+
+    <footer id="contacto">
+      ✦ Página creada por Santiago Gélvez ✦ <br />
+      Un rincón digital para reflexionar © 2025 <br />
+      <a href="https://aprende-web.net/html/html3_1.php" target="_blank">Recurso externo sobre HTML</a>
+    </footer>
+
+    <!-- ✅ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
